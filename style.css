@@ -30,7 +30,7 @@ body {
 }
 
 .presentation {
-    width: 450px;
+    max-width: 450px;
 }
 
 footer {
@@ -39,4 +39,13 @@ footer {
     font-size: smaller;
     color: gray;
     padding-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
