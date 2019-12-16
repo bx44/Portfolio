@@ -11,6 +11,26 @@ body {
     border-left: 1px solid red;
 }
 
+.dog-ear {
+    background: linear-gradient(135deg, transparent 5vw, 5vw, red 5.2vw, 5.2vw, transparent 5.3vw, 5.3vw, red 8vw, 8vw, transparent 8.1vw, 8.1vw, red 8.3vw, 8.3vw, transparent);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.dog-ear h2 {
+    color: white;
+    font-weight: bold;
+    transform: rotate(315deg);
+    position: absolute;
+    top: 2.8vw;
+    left: -0.3vw;
+    font-size: 1.3vw;
+}
+
 .contact_icons {
     text-align: right;
 }
