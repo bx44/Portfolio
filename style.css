@@ -50,8 +50,30 @@ body {
     width: 25px;
 }
 
+main {
+    margin-top: 40px;
+    display: grid;
+}
+
 .presentation {
     max-width: 450px;
+}
+
+.avatar {
+    grid-column: 2;
+    justify-self: end;
+    align-self: end;
+}
+
+.avatar img {
+    max-width: 250px;
+    border-radius: 50%;
+    width: 70%;
+    height: 100%;
+}
+
+.portfolio_gallery {
+    grid-column: span 2;
 }
 
 .portfolio_item {
@@ -76,10 +98,14 @@ body {
     height: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: linear-gradient(to bottom,  transparent, black);
+    background: linear-gradient(180deg,  transparent, black);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.portfolio_item .overlay:hover {
+    background: linear-gradient(180deg, transparent, 75%, black);
 }
 
 .portfolio_item h1 {
