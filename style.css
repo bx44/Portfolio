@@ -57,19 +57,21 @@ main {
 
 .presentation {
     max-width: 450px;
+    margin-right: 50px;
 }
 
 .avatar {
     grid-column: 2;
-    justify-self: end;
-    align-self: end;
+    justify-self: center;
+    align-self: center;
 }
 
 .avatar img {
     max-width: 250px;
     border-radius: 50%;
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    max-width: 25vw;
+    border: 1px solid;
 }
 
 .portfolio_gallery {
