@@ -60,10 +60,15 @@ main {
     display: grid;
 }
 
+main > h1 {
+    grid-column: span 2;
+}
+
 .presentation {
     max-width: 450px;
     margin-right: 50px;
     font-size: 1.4em;
+    justify-self: end;
 }
 
 .avatar {
